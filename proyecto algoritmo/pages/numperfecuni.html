@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Identificar Números Perfectos</title>
+    <link rel="stylesheet" href="../styles/numperfecuni.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Identificar Números Perfectos en un Arreglo</h2>
+        <input type="text" id="arreglo" placeholder="Ingresa los números separados por comas...">
+        <div class="botones">
+            <button onclick="obtenerPerfectos()">Obtener Números Perfectos</button>
+        </div>
+        <div id="resultado" class="resultado"></div>
+        <div class="volver-inicio">
+            <a href="../pages/universidad.html" class="boton-inicio">Volver atrás</a>
+        </div>
+         <div class="explicacion">
+            <p><strong>¿Cómo se obtiene un número perfecto?</strong></p>
+            <p>Un número perfecto es un número entero que es igual a la suma de sus divisores propios positivos (excluyendo el propio número). Por ejemplo:</p>
+            <ul>
+                <li><strong>6:</strong> Sus divisores son 1, 2 y 3. La suma de estos divisores es 1 + 2 + 3 = 6, por lo tanto, 6 es un número perfecto.</li>
+                <li><strong>28:</strong> Sus divisores son 1, 2, 4, 7, y 14. La suma de estos divisores es 1 + 2 + 4 + 7 + 14 = 28, por lo que 28 también es un número perfecto.</li>
+            </ul>
+            <p>Para encontrar números perfectos en un arreglo, debemos revisar cada número y comprobar si la suma de sus divisores es igual al propio número.</p>
+        </div>
+        
+    </div>
+    <script src="../js/numperfecuni.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promedio y Moda de Notas</title>
+    <link rel="stylesheet" href="../styles/modayprouni.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Calcular Promedio y Moda de Notas</h2>
+        <input type="text" id="notas" placeholder="Ingresa las notas separadas por comas...">
+        <div class="botones">
+            <button onclick="obtenerPromedioYModa()">Calcular Promedio y Moda</button>
+        </div>
+        <div id="resultado" class="resultado"></div>
+        <div class="volver-inicio">
+            <a href="../pages/universidad.html" class="boton-inicio">Volver atrás</a>
+        </div>
+         <div class="explicacion">
+            <p><strong>¿Cómo se calcula el promedio y la moda?</strong></p>
+            <p><strong>Promedio:</strong> El promedio de las notas se obtiene sumando todas las notas y dividiendo el total por la cantidad de notas ingresadas. Esto nos da una medida del rendimiento promedio del estudiante en el conjunto de notas. Ejemplo:</p>
+            <ul>
+                <li><strong>Notas:</strong> 7, 8, 9, 10 <br> 
+                    <strong>Promedio:</strong> (7 + 8 + 9 + 10) / 4 = 8.5
+                </li>
+            </ul>
+            <p><strong>Moda:</strong> La moda es el número que más veces se repite en el conjunto de notas. Si un valor se repite más que otros, será la moda. Si no hay repetidos, no hay moda. Ejemplo:</p>
+            <ul>
+                <li><strong>Notas:</strong> 7, 8, 8, 9, 10 <br>
+                    <strong>Moda:</strong> 8 (porque es el número que más veces se repite)
+                </li>
+            </ul>
+            <p>Este sistema te permitirá ingresar varias notas, calcular el promedio de esas notas, y encontrar cuál (o cuáles) son las más frecuentes, es decir, la moda.</p>
+        </div>
+    </div>
+    <script src="../js/modayprouni.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/fibonaccisecu.css">
+    <title>Secuencia de Fibonacci</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Secuencia de Fibonacci</h2>
+        <p id="instrucciones">Ingresa un número entero positivo:</p>
+
+        <input type="number" id="numero" min="1" required>
+        <button id="calcular-btn" onclick="generarFibonacci()">Generar Secuencia</button>
+
+        <div id="resultado" class="resultado"></div>
+
+        <div class="volver-inicio">
+            <a href="../pages/secundaria.html" class="boton-inicio">Volver atrás</a>
+        </div>
+    </div>
+
+    <script src="../js/fibonaccisecu.js"></script>
+</body>
+</html>

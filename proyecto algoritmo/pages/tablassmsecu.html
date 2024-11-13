@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/tablassmsecu.css">
+    <title>Tabla de Multiplicar y/o Sumar</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Tabla de Multiplicar y/o Sumar</h2>
+        <p id="instrucciones">Ingresa un número y selecciona el tipo de tabla (multiplicar o sumar):</p>
+
+        <label for="numero">Número:</label>
+        <input type="number" id="numero" required>
+        
+        <label for="tipo-tabla">Tipo de Tabla:</label>
+        <select id="tipo-tabla">
+            <option value="multiplicar">Multiplicar</option>
+            <option value="sumar">Sumar</option>
+        </select>
+
+        <button id="calcular-btn" onclick="generarTabla()">Generar Tabla</button>
+
+        <div id="resultado" class="resultado"></div>
+
+        <div class="volver-inicio">
+            <a href="../pages/secundaria.html" class="boton-inicio">Volver atrás</a>
+        </div>
+    </div>
+
+    <script src="../js/tablassmsecu.js"></script>
+</body>
+</html>

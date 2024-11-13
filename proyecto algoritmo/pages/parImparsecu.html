@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/parImparsecu.css">
+    <title>Números Pares e Impares en un Rango</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Números Pares e Impares en un Rango</h2>
+        <p id="instrucciones">Ingresa dos números enteros para definir el rango:</p>
+        
+        <label for="inicio">Número de inicio:</label>
+        <input type="number" id="inicio" required>
+        
+        <label for="fin">Número final:</label>
+        <input type="number" id="fin" required>
+        
+        <button id="calcular-btn" onclick="calcularParesImpares()">Mostrar Pares e Impares</button>
+
+        <div id="resultado" class="resultado"></div>
+
+        <div class="volver-inicio">
+            <a href="../pages/secundaria.html" class="boton-inicio">Volver atrás</a>
+        </div>
+    </div>
+
+    <script src="../js/parImparsecu.js"></script>
+</body>
+</html>
